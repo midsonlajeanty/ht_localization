@@ -23,6 +23,7 @@ MaterialApp(
         Locale('ht'),
     ],
     localizationsDelegates: const [
+        // ... app-specific localization delegate[s] here
         ...HTLocalizations.delegates,
         ...GlobalMaterialLocalizations.delegates,
     ],
@@ -34,6 +35,6 @@ MaterialApp(
 
 You have a lot of options to contribute to this project ! You can :
 
-- [Fork if]() on Github
-- [Submit]() a bug report.
-- [Donate]() to the Developper
+- [Fork if](https://github.com/midsonlajeanty/ht_localization) on Github
+- [Submit](https://github.com/midsonlajeanty/ht_localization/issues) a bug report.
+- [Donate](https://www.buymeacoffee.com/louismidson) to the Developper
