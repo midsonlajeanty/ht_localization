@@ -13,7 +13,7 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   ///
   /// For details on the meaning of the arguments, see [GlobalMaterialLocalizations].
   const MaterialLocalizationHt({
-    super.localeName =  HTLocalizations.languageCode,
+    super.localeName = HTLocalizations.languageCode,
     required super.fullYearFormat,
     required super.compactDateFormat,
     required super.shortDateFormat,
@@ -25,7 +25,8 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
     required super.twoDigitZeroPaddedFormat,
   });
 
-  static const LocalizationsDelegate delegate = _MaterialLocalizationHtDelegate();
+  static const LocalizationsDelegate delegate =
+      _MaterialLocalizationHtDelegate();
 
   @override
   String get aboutListTileTitleRaw => r'Konsènan $applicationName';
@@ -112,7 +113,7 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get firstPageTooltip => 'Premye paj';
 
   @override
-  String get hideAccountsLabel => 'Kache Kont yo'; 
+  String get hideAccountsLabel => 'Kache Kont yo';
 
   @override
   String get inputDateModeButtonLabel => 'Al Antre Dat';
@@ -316,7 +317,8 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow - $lastRow nan $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw => r'$firstRow - $lastRow nan apeprè $rowCount';
+  String get pageRowsInfoTitleApproximateRaw =>
+      r'$firstRow - $lastRow nan apeprè $rowCount';
 
   @override
   String get pasteButtonLabel => 'Kole';
@@ -346,7 +348,8 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountOne => 'Rete yon karaktè';
 
   @override
-  String get remainingTextFieldCharacterCountOther => r'Rete $remainingCount karaktè';
+  String get remainingTextFieldCharacterCountOther =>
+      r'Rete $remainingCount karaktè';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
@@ -451,11 +454,13 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get viewLicensesButtonLabel => 'AFICHE LISANS YO';
 }
 
-class _MaterialLocalizationHtDelegate extends LocalizationsDelegate<MaterialLocalizations> {
+class _MaterialLocalizationHtDelegate
+    extends LocalizationsDelegate<MaterialLocalizations> {
   const _MaterialLocalizationHtDelegate();
 
   @override
-  bool isSupported(Locale locale) => locale.languageCode ==  HTLocalizations.languageCode;
+  bool isSupported(Locale locale) =>
+      locale.languageCode == HTLocalizations.languageCode;
 
   @override
   Future<MaterialLocalizations> load(Locale locale) {
@@ -465,7 +470,7 @@ class _MaterialLocalizationHtDelegate extends LocalizationsDelegate<MaterialLoca
     // The locale (in this case `ht`) needs to be initialized into the custom
     // date symbols and patterns setup that Flutter uses.
     util.loadDateIntlDataIfNotLoaded();
-    
+
     return SynchronousFuture<MaterialLocalizations>(
       MaterialLocalizationHt(
         localeName: localeName,

@@ -7,14 +7,13 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'utils/date_localization.dart' as util;
 import 'global.dart';
 
-
 /// The translations for Haitian Creole (`ht`).
 class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
   /// Create an instance of the translation bundle for Haitian Creole.
   ///
   /// For details on the meaning of the arguments, see [GlobalCupertinoLocalizations].
   const CupertinoLocalizationHt({
-    super.localeName =  HTLocalizations.languageCode,
+    super.localeName = HTLocalizations.languageCode,
     required super.fullYearFormat,
     required super.dayFormat,
     required super.mediumDateFormat,
@@ -25,7 +24,8 @@ class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
     required super.decimalFormat,
   });
 
-  static const LocalizationsDelegate delegate = _CupertinoLocalizationHtDelegate();
+  static const LocalizationsDelegate delegate =
+      _CupertinoLocalizationHtDelegate();
 
   @override
   String get alertDialogLabel => 'Alèt';
@@ -157,11 +157,13 @@ class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
   String get todayLabel => "Jodi a";
 }
 
-class _CupertinoLocalizationHtDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
+class _CupertinoLocalizationHtDelegate
+    extends LocalizationsDelegate<CupertinoLocalizations> {
   const _CupertinoLocalizationHtDelegate();
 
   @override
-  bool isSupported(Locale locale) => locale.languageCode ==  HTLocalizations.languageCode;
+  bool isSupported(Locale locale) =>
+      locale.languageCode == HTLocalizations.languageCode;
 
   @override
   Future<CupertinoLocalizations> load(Locale locale) {
@@ -171,7 +173,6 @@ class _CupertinoLocalizationHtDelegate extends LocalizationsDelegate<CupertinoLo
     // The locale (in this case `ht`) needs to be initialized into the custom
     // date symbols and patterns setup that Flutter uses.
     util.loadDateIntlDataIfNotLoaded();
-
 
     return SynchronousFuture<CupertinoLocalizations>(
       CupertinoLocalizationHt(

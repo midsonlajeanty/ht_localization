@@ -1,8 +1,8 @@
-
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 
 import '../global.dart';
+
 /// A custom set of date patterns for the `ht` locale.
 ///
 /// These are not accurate and are just a clone of the date patterns for the
@@ -249,7 +249,6 @@ const htDateSymbols = {
   ],
 };
 
-
 /// Tracks if date i18n data has been loaded.
 bool _dateIntlDataInitialized = false;
 
@@ -260,7 +259,7 @@ bool _dateIntlDataInitialized = false;
 void loadDateIntlDataIfNotLoaded() {
   if (!_dateIntlDataInitialized) {
     date_symbol_data_custom.initializeDateFormattingCustom(
-      locale:  HTLocalizations.languageCode,
+      locale: HTLocalizations.languageCode,
       patterns: htLocaleDatePatterns,
       symbols: intl.DateSymbols.deserializeFromMap(htDateSymbols),
     );
