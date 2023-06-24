@@ -1,6 +1,6 @@
-# exemple
+# ht_localization_example
 
-A new Flutter project.
+Demonstrates how to use the ht_localization plugin.
 
 ## Getting Started
 

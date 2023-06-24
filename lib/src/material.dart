@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:intl/intl.dart' as intl;
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'global.dart';
+import 'delegates.dart';
 import 'utils/date_localization.dart' as util;
 
 /// The translations for Haitian Creole (`ht`).
@@ -452,6 +452,21 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
 
   @override
   String get viewLicensesButtonLabel => 'AFICHE LISANS YO';
+  
+  @override
+  String get bottomSheetLabel => 'Pye Paj';
+  
+  @override
+  String get currentDateLabel => 'Jodi a';
+  
+  @override
+  String get keyboardKeyShift => 'Shift';
+  
+  @override
+  String get scrimLabel => 'Scrim';
+  
+  @override
+  String get scrimOnTapHintRaw => r'Close $modalRouteContentName';
 }
 
 class _MaterialLocalizationHtDelegate

@@ -17,7 +17,7 @@ import 'package:ht_localization/ht_localization.dart';
 
 
 MaterialApp(
-    title: 'JSON Translation Demo',
+    title: 'HT Localiation Demo',
     locale: const Locale('ht'),
     supportedLocales: const [
         Locale('ht'),
@@ -27,7 +27,7 @@ MaterialApp(
         ...HTLocalizations.delegates,
         ...GlobalMaterialLocalizations.delegates,
     ],
-    home: const MyHomePage(title: 'JSON Translation Demo'),
+    home: const MyHomePage(),
 );
 ```
 
@@ -35,6 +35,6 @@ MaterialApp(
 
 You have a lot of options to contribute to this project ! You can :
 
-- [Fork if](https://github.com/midsonlajeanty/ht_localization) on Github
+- [Fork](https://github.com/midsonlajeanty/ht_localization) on Github
 - [Submit](https://github.com/midsonlajeanty/ht_localization/issues) a bug report.
 - [Donate](https://www.buymeacoffee.com/louismidson) to the Developper

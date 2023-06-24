@@ -5,7 +5,7 @@ import 'package:intl/intl.dart' as intl;
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'utils/date_localization.dart' as util;
-import 'global.dart';
+import 'delegates.dart';
 
 /// The translations for Haitian Creole (`ht`).
 class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
@@ -154,7 +154,10 @@ class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
   String? get timerPickerSecondLabelZero => null;
 
   @override
-  String get todayLabel => "Jodi a";
+  String get todayLabel => 'Jodi a';
+  
+  @override
+  String get noSpellCheckReplacementsLabel => 'Pa gen Ranplasman';
 }
 
 class _CupertinoLocalizationHtDelegate

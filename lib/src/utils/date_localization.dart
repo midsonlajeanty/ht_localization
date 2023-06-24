@@ -1,7 +1,7 @@
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 
-import '../global.dart';
+import '../delegates.dart';
 
 /// A custom set of date patterns for the `ht` locale.
 ///
