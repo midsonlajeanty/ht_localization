@@ -317,7 +317,8 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow - $lastRow nan $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw => r'$firstRow - $lastRow nan apeprè $rowCount';
+  String get pageRowsInfoTitleApproximateRaw =>
+      r'$firstRow - $lastRow nan apeprè $rowCount';
 
   @override
   String get pasteButtonLabel => 'Kole';
@@ -347,7 +348,8 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountOne => 'Rete yon karaktè';
 
   @override
-  String get remainingTextFieldCharacterCountOther => r'Rete $remainingCount karaktè';
+  String get remainingTextFieldCharacterCountOther =>
+      r'Rete $remainingCount karaktè';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
