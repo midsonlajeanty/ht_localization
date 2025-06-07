@@ -1,3 +1,7 @@
+## [1.0.1] - 2025-06-07
+
+- Update ios plugin
+
 ## [1.0.0] - 2025-06-07
 
 - Update dependencies
