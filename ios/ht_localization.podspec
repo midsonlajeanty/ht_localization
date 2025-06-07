@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'ht_localization'
-  s.version          = '1.0.2'
+  s.version          = '1.0.1'
 s.summary            = "A flutter localization package for Haitian Creole."
 s.description        = <<-DESC
 ht_localization is a package that provides tools and resources to support Haitian Creole localization in flutter apps. It includes language files, helpers, and more.
