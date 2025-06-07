@@ -101,7 +101,7 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get dialModeButtonLabel => 'Al Chwazi nan kadran an';
 
   @override
-  String get dialogLabel => 'Bwat dyalòg';
+  String get dialogLabel => 'Bwat konvèsasyon';
 
   @override
   String get drawerLabel => 'Meni navigasyon';
@@ -140,7 +140,7 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get keyboardKeyBackspace => 'Tounen Dèye';
 
   @override
-  String get keyboardKeyCapsLock => 'Klete Maj';
+  String get keyboardKeyCapsLock => 'Caps Lock';
 
   @override
   String get keyboardKeyChannelDown => 'Chenn apre';
@@ -182,67 +182,67 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get keyboardKeyMetaWindows => 'Win';
 
   @override
-  String get keyboardKeyNumLock => 'Klete Num';
+  String get keyboardKeyNumLock => 'Klete Nim';
 
   @override
-  String get keyboardKeyNumpad0 => 'Num 0';
+  String get keyboardKeyNumpad0 => 'Nim 0';
 
   @override
-  String get keyboardKeyNumpad1 => 'Num 1';
+  String get keyboardKeyNumpad1 => 'Nim 1';
 
   @override
-  String get keyboardKeyNumpad2 => 'Num 2';
+  String get keyboardKeyNumpad2 => 'Nim 2';
 
   @override
-  String get keyboardKeyNumpad3 => 'Num 3';
+  String get keyboardKeyNumpad3 => 'Nim 3';
 
   @override
-  String get keyboardKeyNumpad4 => 'Num 4';
+  String get keyboardKeyNumpad4 => 'Nim 4';
 
   @override
-  String get keyboardKeyNumpad5 => 'Num 5';
+  String get keyboardKeyNumpad5 => 'Nim 5';
 
   @override
-  String get keyboardKeyNumpad6 => 'Num 6';
+  String get keyboardKeyNumpad6 => 'Nim 6';
 
   @override
-  String get keyboardKeyNumpad7 => 'Num 7';
+  String get keyboardKeyNumpad7 => 'Nim 7';
 
   @override
-  String get keyboardKeyNumpad8 => 'Num 8';
+  String get keyboardKeyNumpad8 => 'Nim 8';
 
   @override
-  String get keyboardKeyNumpad9 => 'Num 9';
+  String get keyboardKeyNumpad9 => 'Nim 9';
 
   @override
-  String get keyboardKeyNumpadAdd => 'Num +';
+  String get keyboardKeyNumpadAdd => 'Nim +';
 
   @override
-  String get keyboardKeyNumpadComma => 'Num ,';
+  String get keyboardKeyNumpadComma => 'Nim ,';
 
   @override
-  String get keyboardKeyNumpadDecimal => 'Num .';
+  String get keyboardKeyNumpadDecimal => 'Nim .';
 
   @override
-  String get keyboardKeyNumpadDivide => 'Num /';
+  String get keyboardKeyNumpadDivide => 'Nim /';
 
   @override
-  String get keyboardKeyNumpadEnter => 'Num Antre';
+  String get keyboardKeyNumpadEnter => 'Nim Antre';
 
   @override
-  String get keyboardKeyNumpadEqual => 'Num =';
+  String get keyboardKeyNumpadEqual => 'Nim =';
 
   @override
-  String get keyboardKeyNumpadMultiply => 'Num *';
+  String get keyboardKeyNumpadMultiply => 'Nim *';
 
   @override
-  String get keyboardKeyNumpadParenLeft => 'Num (';
+  String get keyboardKeyNumpadParenLeft => 'Nim (';
 
   @override
-  String get keyboardKeyNumpadParenRight => 'Num )';
+  String get keyboardKeyNumpadParenRight => 'Nim )';
 
   @override
-  String get keyboardKeyNumpadSubtract => 'Num -';
+  String get keyboardKeyNumpadSubtract => 'Nim -';
 
   @override
   String get keyboardKeyPageDown => 'PajApr';
@@ -317,8 +317,7 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow - $lastRow nan $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw =>
-      r'$firstRow - $lastRow nan apeprè $rowCount';
+  String get pageRowsInfoTitleApproximateRaw => r'$firstRow - $lastRow nan apeprè $rowCount';
 
   @override
   String get pasteButtonLabel => 'Kole';
@@ -348,8 +347,7 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountOne => 'Rete yon karaktè';
 
   @override
-  String get remainingTextFieldCharacterCountOther =>
-      r'Rete $remainingCount karaktè';
+  String get remainingTextFieldCharacterCountOther => r'Rete $remainingCount karaktè';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
@@ -452,21 +450,60 @@ class MaterialLocalizationHt extends GlobalMaterialLocalizations {
 
   @override
   String get viewLicensesButtonLabel => 'AFICHE LISANS YO';
-  
+
   @override
   String get bottomSheetLabel => 'Pye Paj';
-  
+
   @override
   String get currentDateLabel => 'Jodi a';
-  
+
   @override
   String get keyboardKeyShift => 'Shift';
-  
+
   @override
   String get scrimLabel => 'Scrim';
-  
+
   @override
   String get scrimOnTapHintRaw => r'Close $modalRouteContentName';
+
+  @override
+  String get clearButtonTooltip => "Efase tèks la";
+
+  @override
+  String get collapsedHint => "Depliye";
+
+  @override
+  String get expandedHint => "Pliye";
+
+  @override
+  String get expansionTileCollapsedHint => "Klike de fwa pou depliye";
+
+  @override
+  String get expansionTileCollapsedTapHint => "Depliye pou plis detay";
+
+  @override
+  String get expansionTileExpandedHint => "Klike de fwa pou pliye";
+
+  @override
+  String get expansionTileExpandedTapHint => "Pliye";
+
+  @override
+  String get lookUpButtonLabel => "Cheche";
+
+  @override
+  String get menuDismissLabel => "Fèmen meni an";
+
+  @override
+  String get scanTextButtonLabel => "Eskane tèks";
+
+  @override
+  String get searchWebButtonLabel => "Chèche sou entènèt";
+
+  @override
+  String get selectedDateLabel => "Dat chwazi";
+
+  @override
+  String get shareButtonLabel => "Patage";
 }
 
 class _MaterialLocalizationHtDelegate

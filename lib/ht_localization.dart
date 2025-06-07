@@ -1,4 +1,4 @@
-library ht_localization;
+library;
 
 export 'src/delegates.dart';
 export 'src/material.dart';

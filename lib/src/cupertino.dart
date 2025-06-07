@@ -22,6 +22,7 @@ class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
     required super.doubleDigitMinuteFormat,
     required super.singleDigitSecondFormat,
     required super.decimalFormat,
+    required super.weekdayFormat,
   });
 
   static const LocalizationsDelegate delegate =
@@ -155,9 +156,30 @@ class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
 
   @override
   String get todayLabel => 'Jodi a';
-  
+
   @override
   String get noSpellCheckReplacementsLabel => 'Pa gen Ranplasman';
+
+  @override
+  String get backButtonLabel => 'Retounen';
+
+  @override
+  String get cancelButtonLabel => 'Anile';
+
+  @override
+  String get clearButtonLabel => 'Efase';
+
+  @override
+  String get lookUpButtonLabel => 'Chèche';
+
+  @override
+  String get menuDismissLabel => 'Fèmen meni';
+
+  @override
+  String get searchWebButtonLabel => 'Chèche sou entènèt';
+
+  @override
+  String get shareButtonLabel => 'Pataje';
 }
 
 class _CupertinoLocalizationHtDelegate
@@ -187,6 +209,7 @@ class _CupertinoLocalizationHtDelegate
         doubleDigitMinuteFormat: intl.DateFormat('mm', localeName),
         singleDigitSecondFormat: intl.DateFormat.s(localeName),
         decimalFormat: intl.NumberFormat('#,##0.###', 'en_US'),
+        weekdayFormat: intl.DateFormat.EEEE(localeName),
       ),
     );
   }

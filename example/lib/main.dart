@@ -36,9 +36,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Container(
-          // Your app code goes here.
-          ),
+      body: const Placeholder()
     );
   }
 }
