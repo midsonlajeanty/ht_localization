@@ -14,7 +14,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
-  plugin_platform_interface: any
+  plugin_platform_interface: 2.1.8
 
 dev_dependencies:
   flutter_test:
