@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         // ... app-specific localization delegate[s] here
         ...HTLocalizations.delegates
       ],
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'HTLocalization Demo Home Page'),
     );
   }
 }
