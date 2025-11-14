@@ -1,11 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-
-import 'package:intl/intl.dart' as intl;
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart' as intl;
 
-import 'utils/date_localization.dart' as util;
 import 'delegates.dart';
+import 'utils/date_localization.dart' as util;
 
 /// The translations for Haitian Creole (`ht`).
 class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
@@ -180,6 +179,24 @@ class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
 
   @override
   String get shareButtonLabel => 'Pataje';
+
+  @override
+  String get collapsedHint => 'Depliye';
+
+  @override
+  String get expandedHint => 'Pliye';
+
+  @override
+  String get expansionTileCollapsedHint => 'Klike de fwa pou depliye';
+
+  @override
+  String get expansionTileCollapsedTapHint => 'Depliye pou plis detay';
+
+  @override
+  String get expansionTileExpandedHint => 'Klike de fwa pou pliye';
+
+  @override
+  String get expansionTileExpandedTapHint => 'Pliye';
 }
 
 class _CupertinoLocalizationHtDelegate
