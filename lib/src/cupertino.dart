@@ -6,9 +6,9 @@ import 'package:intl/intl.dart' as intl;
 import 'delegates.dart';
 import 'utils/date_localization.dart' as util;
 
-/// The translations for Haitian Creole (`ht`).
+/// The translations for Haitian language (`ht`).
 class CupertinoLocalizationHt extends GlobalCupertinoLocalizations {
-  /// Create an instance of the translation bundle for Haitian Creole.
+  /// Create an instance of the translation bundle for Haitian language.
   ///
   /// For details on the meaning of the arguments, see [GlobalCupertinoLocalizations].
   const CupertinoLocalizationHt({

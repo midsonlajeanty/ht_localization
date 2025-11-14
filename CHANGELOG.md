@@ -1,3 +1,14 @@
+## [1.0.3] - 2025-11-14
+
+### 🐛 Bug Fixes
+
+- Update missing strings
+- Update dependencies
+
+### 📚 Documentation
+
+- Update changelog
+
 ## [1.0.1] - 2025-06-07
 
 - Update ios plugin
