@@ -6,7 +6,7 @@ homepage: https://github.com/midsonlajeanty/ht_localization
 
 environment:
   sdk: ">=3.0.3 <4.0.0"
-  flutter: ">=3.3.0"
+  flutter: ">=3.38.0"
 
 dependencies:
   flutter:
