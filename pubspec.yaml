@@ -1,7 +1,7 @@
 name: ht_localization
 description: Support for Haitian language translation for flutter applications.
 
-version: 1.0.1
+version: 1.0.3
 homepage: https://github.com/midsonlajeanty/ht_localization
 
 environment:
