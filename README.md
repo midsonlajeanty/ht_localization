@@ -37,4 +37,4 @@ You have a lot of options to contribute to this project ! You can :
 
 - [Fork](https://github.com/midsonlajeanty/ht_localization) on Github
 - [Submit](https://github.com/midsonlajeanty/ht_localization/issues) a bug report.
-- [Donate](https://www.buymeacoffee.com/louismidson) to the Developper
+- [Donate](https://www.buymeacoffee.com/midsonlajeanty) to the Developper
